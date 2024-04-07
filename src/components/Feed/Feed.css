@@ -42,13 +42,37 @@
         margin-top: 10px;
         margin-left: 80px;
     }
+    .card img{
+        width: 100%;
+        border-radius: 5px;
+    }
     .shimmer{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-column-gap: 10px;
         grid-row-gap: 30px;
         margin-top: 15px;
-        margin-left: 80px;
+        margin-left: 70px;
+    
+    }
+  }
+
+  @media (max-width: 500px) {
+    .feed{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
+        margin-top: 10px;
+        margin-left: 60px;
+    }
+    .shimmer{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-column-gap: 10px;
+        grid-row-gap: 30px;
+        margin-top: 15px;
+        margin-left: 60px;
     
     }
   }
