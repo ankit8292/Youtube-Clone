@@ -44,7 +44,7 @@ const PlayVideo=()=>{
     },[videoData]);
 
     
-    console.log(videoData)
+   // console.log(videoData)
     if(videoData.length===0 || channelDetail.length===0) return
     return(
       
@@ -54,7 +54,7 @@ const PlayVideo=()=>{
                 src={`https://www.youtube.com/embed/${videoId}?autoplay=1`}
                 title="Beginner Three.js &amp; GSAP Tutorial | Build and Deploy an Apple Website using React" 
                 frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowFullScreen>
+                referrerPolicy="strict-origin-when-cross-origin" allowFullScreen>
 
             </iframe>
 

@@ -1,9 +1,19 @@
+[data-theme="light"]{
+    --bg-color:#ffffff;
+    --text-color:#333333;
+  }
   
+  [data-theme="dark"]{
+    --bg-color:#333333;
+    --text-color:#ffffff;
+  }
+  
+   
    .card {
       position: relative;
       -webkit-box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
       box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
-      background-color: #FFF;
+      background-color: var(--bg-color);
       border-radius: 6px;
       height: 300px;
       overflow: hidden;

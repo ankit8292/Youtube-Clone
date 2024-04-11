@@ -8,6 +8,8 @@ export const CHANNEL_DATA_API="https://youtube.googleapis.com/youtube/v3/channel
 
 export const COMMENT_DATA_API="https://www.googleapis.com/youtube/v3/commentThreads?textFormat=plainText&part=snippet&maxResults=50&key="
 
+export const YOUTUBE_SEARCH_SUGGESTION_LIST="https://www.googleapis.com/youtube/v3/search?key="+API_Key+"&type=video&part=snippet&maxResults=25&regionCode=IN&q=";
+
 export const value_converter = (value) => {
     if(value>=1000000)
     {

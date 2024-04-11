@@ -23,7 +23,7 @@ const Recommend=({categoryId})=>{
         <div className="recommended">
             {recommend.map((item)=>{
                 return(
-                    <div className="side-video-list">
+                    <div key={item.id} className="side-video-list">
                     <Link to={`/video/${item.snippet.categoryId}/${item.id}`} onClick={()=>window.scrollTo(0,0)} className="small-thumbnail">
                         <img src={item.snippet.thumbnails.medium.url} alt="" /> 
                     </Link> 

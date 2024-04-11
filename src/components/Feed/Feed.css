@@ -1,3 +1,13 @@
+[data-theme="light"]{
+    --color:#000;
+    --text-color:#333333;
+  }
+  
+  [data-theme="dark"]{
+    --color:#ffffff;
+    --text-color:#ffffff;
+  }
+  
 .feed{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -12,7 +22,7 @@
 .card h2{
     font-size: 16px;
     font-weight: 600;
-    color: #000;
+    color: var(--color);
     margin: 5px 0;
 }
 .card h3{

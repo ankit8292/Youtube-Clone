@@ -1,9 +1,25 @@
+[data-theme="light"]{
+  --bg-color:#ffffff;
+  --text-color:#333333;
+  --heading-color:#444444;
+}
+
+[data-theme="dark"]{
+  --bg-color:#000000ec;
+  --text-color:#ffffff;
+  --heading-color:#dddddd;
+}
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: var(--bg-color);
+  background: var(--bg-color);
+  color:var(--text-color);
 }
+
 a{
   text-decoration: none;
   color: #5a5a5a;

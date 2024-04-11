@@ -34,7 +34,7 @@ const SideBar=({sidebar, category, setCategory})=>{
                     <img src={tech} alt="" /> <p>Technology</p>
                 </div>
                 <div className={`side-link ${category===10 ?"active":""}`} onClick={()=>setCategory(10)}>
-                    <img src={tech} alt="" /> <p>Music</p>
+                    <img src={music} alt="" /> <p>Music</p>
                 </div>
                 <div className={`side-link ${category===22 ?"active":""}`} onClick={()=>setCategory(22)}>
                     <img src={blogs} alt="" /> <p>Blogs</p>
