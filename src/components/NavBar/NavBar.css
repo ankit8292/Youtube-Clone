@@ -111,6 +111,9 @@ nav{
     .nav-middle .mic-icon{
         display: none;
     }
+    .nav-middle {
+       margin-left: 5px;
+    }
     .nav-middle .search-box input{
         width: 100px;
      }
