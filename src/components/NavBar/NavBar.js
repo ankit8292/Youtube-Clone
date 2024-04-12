@@ -30,7 +30,8 @@ const NavBar=({setSidebar})=>{
                 <Link to="/"> 
                     <img  
                     alt="youtube"
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png" className="logo" />
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1280px-YouTube_Logo_2017.svg.png" 
+                    className="logo" />
                 </Link> 
             </div>
 
@@ -39,17 +40,6 @@ const NavBar=({setSidebar})=>{
                   <input type="input" placeholder="Search" value={searchText} onChange={(e)=>setSearchText(()=>e.target.value)} />
                     <img src={search_icon} alt="" onClick={handleSearch} />
                 </div>
-
-            </div>
-
-            <div className="flex-div">
-                {/* <div className="mode-switch">
-                    <label>
-                        <input type="checkbox" checked={theme==="dark"} onChange={toggleTheme} />  
-                        <span className="slider round"></span>
-                   {/* {    theme==="dark" ? "Dark Mode" : "Light Mode"} 
-                   </label>
-                </div> */}
 
             </div>
 

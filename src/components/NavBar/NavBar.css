@@ -103,10 +103,10 @@ nav{
     }
     .nav-right .user-icon{
         display: block;
-        width: 30px;
+        width: 24px;
     }
     .logo{
-        width: 90px;
+        width: 60px;
     }
     .nav-middle .mic-icon{
         display: none;
@@ -114,5 +114,24 @@ nav{
     .nav-middle .search-box input{
         width: 100px;
      }
+     .mode-switch label {
+        display: inline-block;
+        width: 32px;
+        height: 20px;
+        position: relative;
+        margin-left: 4px;
+        margin-right: 8px;
+      }
+      .mode-switch .slider:before {
+        position: absolute;
+        content: "";
+        height: 16px;
+        width: 14px;
+        left: 6px;
+        bottom: 3px;
+        background-color: white;
+        transition: 0.4s;
+        border-radius: 50%;
+      }
     
 }
