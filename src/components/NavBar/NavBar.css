@@ -103,7 +103,7 @@ nav{
     }
     .nav-right .user-icon{
         display: block;
-        width: 21px;
+        width: 20px;
     }
     .logo{
         width: 60px;
@@ -119,11 +119,11 @@ nav{
      }
      .mode-switch label {
         display: inline-block;
-        width: 32px;
+        width: 28px;
         height: 20px;
         position: relative;
         margin-left: 4px;
-        margin-right: 8px;
+        margin-right: 10px;
       }
       .mode-switch .slider:before {
         position: absolute;
